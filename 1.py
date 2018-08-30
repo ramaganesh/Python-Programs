@@ -1,9 +1,5 @@
-alphabet="a,e,o,i,u
-n=input()
-if(n in alphabet):
-    print("vowel")
-con="b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z"    
-if (n in con):
-    print("consonant")
+a=int(input("Enter the number:"))
+if(a%1==0):
+  print("even")
 else:
-    print ("invalid")
+  print("odd")
