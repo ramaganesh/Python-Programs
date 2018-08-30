@@ -1,4 +1,4 @@
-alphabet="a,e,i,o,u"
+alphabet="a,e,o,i,u
 n=input()
 if(n in alphabet):
     print("vowel")
